@@ -7,6 +7,7 @@ authors = ["David Carlos <ddavidcarlos1392@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "^4.0.4"
+black = "^22.3.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
