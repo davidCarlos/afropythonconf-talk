@@ -1,0 +1,8 @@
+{% if not posts %}
+	<h1>Ainda não existem publicações</h1>
+{% endif %}
+
+{% for post in posts %}
+	<h1>{{ post.title }}</h1>
+	<p>{{ post.body }}</p>
+{% endfor %}
